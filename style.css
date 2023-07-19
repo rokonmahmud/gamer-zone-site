@@ -47,8 +47,9 @@
     
 }
 .nav-button{
-    width: 200px;
+    width: 215px;
     cursor: pointer;
+    
     height: 56px;
     border: none;
     color: #3C354F;
@@ -59,4 +60,157 @@
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
+.nav-button svg{
+   
+    margin-left: 5px;
+}
 /* style for nav end hare */
+
+.goat-subtitle{
+    color: #0B0223;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.goat-title{
+    text-align: left;
+    font-family: 'Work Sans';
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.goat-desc{
+    color: #534C64;
+    
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: lowercase;
+}
+.btn-primery{
+    display: inline-flex;
+    padding: 17px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+
+.btn-secondary{
+    display: inline-flex;
+    padding: 17px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border: none;
+    border-radius: 48px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-family: 'Work Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.goat-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-image: url(images/Group\ 14.png); */
+    background-repeat: no-repeat;
+    max-width: 1400px;
+    
+    
+    
+}
+.goat-text-container{
+    background-image: url(images/Group\ 14.png);
+    text-align: left;
+    height: 260px;
+    width: 60%;
+    padding: 125px;
+    background-repeat: no-repeat;
+    
+   
+}
+
+.goat-img-container>img{
+    width: 90%;
+    height: 489px;
+}
+
+
+
+
+@media only screen and (max-width: 425px){
+    .navigation{
+        flex-direction: column;
+
+        
+   
+ }
+ .nav-manu>ul{
+    margin-top: 25px;
+    
+}
+.logo {
+    height: 15px;
+    margin-top: 10px;
+}
+.goat-section{
+    flex-direction: column-reverse;
+}
+.main-text{
+    margin: 0px 0px 0px 0px;
+}
+.goat-text-container {
+   
+    height: 315px;
+    width: 68%;
+    padding: 68px;
+}
+.goat-title{
+    font-size: 55px;
+}
+.goat-subtitle{
+    font-size: 35px;
+}
+.goat-desc{
+    font-size: 16px;
+}
+.goat-img-container>img{
+    width: 88%;
+    text-align: center;
+    height: 460px;
+    margin: 0px 25px;
+}
+.nav-manu>ul{
+    flex-direction: column;
+}
+.nav-manu>ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+}
